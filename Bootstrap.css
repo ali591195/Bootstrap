@@ -1,0 +1,311 @@
+/*Elements*/
+a, button {
+    cursor: pointer;
+}
+b {
+    font-weight: bolder;
+}
+body, html {
+    font-family: Verdana,sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+}
+body {
+    font-family: "Lato", sans-serif;
+    margin: 0;
+}
+button {
+    border: none;
+}
+button, img {
+    vertical-align: middle;
+}
+button, input {
+    font: inherit;
+}
+h2 {
+    font-size: 30px;
+}
+h2, h3 {
+    font-family: "Segoe UI",Arial,sans-serif;
+    font-weight: 400;
+    margin: 10px 0;
+}
+h3 {
+    font-size: 24px;
+}
+input {
+    padding: 8px;
+    border: 1px solid #ccc;
+}
+
+
+/*Repititve||Utility Classes*/
+
+/*Normal Classes*/
+    .border-box {
+        box-sizing: border-box;
+    }
+    .common-div {
+        padding: 64px 16px;
+    }
+    .common-margin {
+        margin-bottom: 16px;
+    }
+    .common-padding {
+        padding: 8px 16px;
+    }
+    .common-width {
+        width: 33.33333%;
+    }
+    .font-size-24 {
+        font-size: 24px;
+    }
+    .green {
+        background-color: #009688;
+    }
+    .height {
+        height: 100%;
+    }
+    .ls-4 {
+        letter-spacing: 4px;
+    }
+    .margin-16-0 {
+        margin: 16px 0;
+    }
+    .opacity-60 {
+        opacity: 0.6;
+    }
+    .padding-32-0 {
+        padding: 32px 0;
+    }
+    .red {
+        background-color: #f44336;
+    }
+    .my-shadow {
+        box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+    }
+    .text-div {
+        padding: 0.15px 16px !important;
+    }
+    .text-div p {
+        margin: 16px 0;
+    }
+    .top {
+        top: 0;
+    }
+    .width-49 {
+        width: 49.99999%;
+    }
+
+.hover:hover {
+    color: black !important;
+    background-color: #ccc !important;
+}
+
+/* Bootstrap */
+    .navbar-toggler{
+        border-radius: 0;
+        font-size: inherit;
+    }
+    .modal-content {
+        border-radius: 0;
+    }
+    @media (min-width: 1400px), (min-width: 1200px), (min-width: 992px) {
+        .container {
+            max-width: 768px;
+        }
+    }
+
+/*Menu Bar*/
+
+/*Ids*/
+    #menu-div {
+        z-index: 1;
+    }
+    #submenu {
+        box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2),0 4px 20px 0 rgba(0,0,0,0.19);
+        width: 160px;
+    }
+    #menu-bar a {
+        padding: 12px 24px;
+    }
+    #search-menu {
+        font-size: inherit;
+    }
+
+    /*Hover Rule*/
+        #display-submenu:hover #more-menu {
+            color: black !important;
+            background-color: #ccc !important;
+        } 
+        #display-submenu:hover #submenu {
+            display: block !important;
+        } 
+        #search-menu:hover {
+            background-color: #f44336 !important;
+        }
+
+        #submenu a:hover {
+            background-color: #ccc !important;
+        }
+
+.submenu-position {
+    top: 47px;
+}
+
+/*Slideshow Section*/
+.img-div {
+    height: 93.9%;
+}
+.img-div img{
+    margin-top: 46.5px;
+}
+
+/*Band Section*/
+/*Ids*/
+    #band-members img {
+        width: 60%;
+        border-radius: 4px;
+    }
+
+.align-justify {
+    text-align: justify;
+}
+
+/*Tour Section*/
+/*Ids*/
+    #background-div {
+        background-color: rgba(0,0,0,0.4);
+        
+    }
+    #circular-span {
+        margin: 0 16px 0 0;
+    }
+    #form-div {
+        margin: 0 auto;
+        margin-top: 100px;
+    }
+    #form-header {
+        padding: 32px 16px;
+    }
+    #hidden-section {
+        overflow: auto;
+    }
+    #pay-btn {
+        padding: 16px;
+        box-sizing: border-box;
+    }
+    #ticket-section {
+        margin: 0 -16px;
+        padding: 32px 8px;
+        width: 102.08%;
+        box-sizing: content-box;
+    }
+
+    /*Ids Elements*/
+        #form a {
+            color: #2196F3;
+        }
+        #form input {
+            width: 100%;
+        }
+        #form-header i {
+            margin-right: 16px;
+        }
+        #form-header span {
+            right: 0;
+            cursor: pointer;
+        }
+        #month-section div{
+            border-bottom: 1px solid #ddd;
+            color: #757575;
+        }
+        #month-section span {
+            padding-left: 8px;
+            padding-right: 8px;
+        }
+
+        #form button:hover {
+            background-color: #ccc;
+            color: black;
+        }
+
+/*Classes*/
+    .month-span {
+        padding: 2px 8px;
+        margin-left: 16px;
+    }
+    .ticket-divs {
+        padding: 0 8px;
+        margin-bottom: 16px;
+    }
+    .my-container{
+        max-width: 720px;
+    }
+    @media (min-width: 992px) {
+        .my-container{
+            max-width: 960px;
+        }
+    }
+    @media (max-width: 768px) {
+        .my-container{
+            max-width: 540px;
+        }
+    }
+
+    /*Class Elements Hover Rule*/
+        .ticket-divs img:hover {
+                opacity: 0.6;
+        }
+
+/*Contact Section*/
+#contact {
+    padding: 32px 0px;
+}
+#contact-info {
+    margin-bottom: 16px;
+    font-size: 18px;
+}
+
+/*Ids Elements*/
+    #contact-info i {
+        width: 30px;
+    }
+    #contact-form div {
+        margin-bottom: 4px;
+    }
+    #div-right {
+        padding: 0;
+        padding-right: 7.5px;
+    }
+    #div-left {
+        padding: 0;
+        padding-left: 7.5px;
+    }
+    @media (max-width: 575px) {
+        #div-right {
+            padding-right: 0;
+        }
+        #div-left {
+            padding-left: 0;
+        }
+    }
+
+
+/*Gap Section*/
+#gap-img {
+    filter: grayscale(50%);
+}
+
+/*Footer Section*/
+#footer-section {
+    padding: 64px 16px;
+}
+#footer-section p {
+    font-size: 15px;
+}
+#footer-section i:hover {
+    opacity: 0.6;
+}
+
